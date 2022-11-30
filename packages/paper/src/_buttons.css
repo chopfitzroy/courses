@@ -1,0 +1,23 @@
+.button {
+  padding: var(--space-1) var(--space-2);
+	border: 0;
+  border-radius: var(--space-3);
+	
+	&.primary {
+		color: var(--white);
+	  background-color: var(--black);
+	  border: 1px solid var(--black);
+		
+		
+		&:hover {
+			color: var(--black);
+			background-color: var(--white);
+		}
+	}
+	
+	&.secondary {
+		color: var(--black);
+	  background-color: var(--opaque-100);
+	}
+}
+

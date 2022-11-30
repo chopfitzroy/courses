@@ -1,0 +1,13 @@
+:root {
+	/* Colors */
+  --black: #000;
+  --white: #FFF;
+	--opaque-100: rgba(0,0,0,0.1);
+	
+	/* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.50rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 4rem;
+}

@@ -14,9 +14,9 @@ export default function Counter({
 	return (
 		<>
 			<div className="counter">
-				<button className="button" onClick={subtract}>Decrease</button>
+				<button className="button secondary" onClick={subtract}>Decrease</button>
 				<pre>{count}</pre>
-				<button className="button" onClick={add}>Increase</button>
+				<button className="button primary" onClick={add}>Increase</button>
 			</div>
 			<div className="counter-message">{children}</div>
 		</>
