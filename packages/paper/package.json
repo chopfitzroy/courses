@@ -1,0 +1,20 @@
+{
+  "name": "paper",
+  "version": "0.0.0",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "lint": "TIMING=1 eslint \"**/*.ts*\"",
+    "dev": "onchange --initial 'src/**/*.css' -- npm run prod",
+    "prod": "lightningcss --minify --nesting --bundle --targets '>= 0.25%' --sourcemap src/index.css -o dist/index.css"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "lightningcss-cli": "^1.17.0",
+    "onchange": "^7.1.0",
+    "tsconfig": "*",
+    "typescript": "^4.5.2"
+  }
+}

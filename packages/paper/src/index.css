@@ -1,0 +1,16 @@
+:root {
+  --black: #000;
+  --white: #FFF;
+  --space-1: 0.25rem;
+  --space-2: 0.50rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 4rem;
+}
+
+.button {
+  padding: var(--space-1) var(--space-2);
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  border-radius: var(--space-2);
+}
